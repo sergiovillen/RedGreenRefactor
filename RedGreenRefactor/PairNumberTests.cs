@@ -27,19 +27,7 @@ namespace RedGreenRefactor
     {
         public bool IsPair(int input)
         {
-            if (input == 1) return false;
-            if (input == 2) return true;
-            if (input == 3) return false;
-            if (input == 4) return true;
-            if (input == 5) return false;
-            if (input == 6) return true;
-            if (input == 7) return false;
-            if (input == 8) return true;
-            if (input == 9) return false;
-            if (input == 10) return true;
-            if (input == 11) return false;
-            if (input == 12) return true;            
-            throw new NotImplementedException();
+            return input%2 == 0;
         }
     }
 }
