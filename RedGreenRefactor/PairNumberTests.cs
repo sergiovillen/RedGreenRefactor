@@ -25,6 +25,7 @@ namespace RedGreenRefactor
     {
         public bool IsPair(int input)
         {
+            if (input == 2) return true;
             throw new NotImplementedException();
         }
     }
